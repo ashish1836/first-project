@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Users Page</title>
+  </head>
+
+  <body>
+    <h1>Users</h1>
+    <ul>
+      <% users.forEach(funtion(el){%>
+      <li>
+        <!-- <p>Name: <%= key: value%></p>
+        <br /> -->
+        <p>Email:<%= el.email%></p>
+        <br />
+        <p>Location:<%= el.location%></p>
+        <br />
+      </li>
+      <%})%>
+    </ul>
+  </body>
+</html>

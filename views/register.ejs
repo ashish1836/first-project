@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>register</title>
+  </head>
+  <body>
+    <h1>Register Page</h1>
+    <form action="/signup" method="POST">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <br />
+      <div>
+        <label for="passwordConfirm">Password Confirm:</label>
+        <input type="password" id="passwordConfirm" name="passwordConfirm" required />
+      </div>
+      <br />
+      <!-- <p>The name is <%= name %></p>
+      <br />
+      <p>The email is <%= email %></p>
+      <br /> -->
+      <button type="sumbit">Register</button>
+    </form>
+    <br />
+    <a href="/users/log">Login</a>
+  </body>
+</html>
